@@ -5,12 +5,11 @@ export function Hero() {
       className="relative flex min-h-screen items-center justify-center"
     >
       {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://f005.backblazeb2.com/file/TRWdailyPuzzle/cigar+lounge.jpg')",
-        }}
+      {/* Background image */}
+      <img
+        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar%20lounge-Qprd31s5tmgyxjZ6CqyQksyGbLDO9Y.jpg"
+        alt=""
+        className="absolute inset-0 h-full w-full object-cover"
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-[#2C1810]/60" />
