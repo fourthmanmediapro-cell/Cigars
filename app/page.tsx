@@ -6,7 +6,7 @@ import { Featured } from "@/components/featured"
 import { Memberships } from "@/components/memberships"
 import { Amenities } from "@/components/amenities"
 import { Footer } from "@/components/footer"
-
+import MasonryPortfolio from "@/components/MasonryPortfolio"
 export default function Home() {
   return (
     <main>
@@ -15,6 +15,7 @@ export default function Home() {
       <CigarMarquee />
       <About />
       <Featured />
+      <MasonryPortfolio />
       <Memberships />
       <Amenities />
       <Footer />
